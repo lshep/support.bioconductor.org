@@ -3,7 +3,7 @@ from biostar.settings import *
 
 # Additional apps enabled.
 EMAILER_APP = [
-    'biostar.emailer.apps.EmailerConfig'
+#    'biostar.emailer.apps.EmailerConfig'
 ]
 
 INSTALLED_APPS = DEFAULT_APPS + EMAILER_APP

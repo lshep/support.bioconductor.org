@@ -120,6 +120,9 @@ urlpatterns = [
     # Add admin urls.
     path('admin/', admin.site.urls),
 
+    # email tester
+    path('emailer/', include('biostar.emailer.urls')), 
+
 ]
 
 if settings.PAGEDOWN_IMAGE_UPLOAD_ENABLED:
